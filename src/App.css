@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+body {
+    background-image: url(https://365psd.com/images/istock/previews/1001/100159101-cute-weather-theme-seamless-pattern-background.jpg);
+    height: 100vh;
+    color: #000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div {
+    font-size: 35px;
+    font-weight: 700;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+    font-weight: 700;
+    color: blue;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+    font-weight: 800;
 }
-
-.App-link {
-  color: #61dafb;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather-box {
+    padding: 100px;
+    border: 5px solid #fff;
+    background-color: rgba(255, 255, 255, 0.5);
 }
