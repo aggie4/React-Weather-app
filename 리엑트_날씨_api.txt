@@ -1,0 +1,5 @@
+구글에 weather api 검색 후 맨 위에 링크 들어간다
+
+Current Weather Data  >> API doc클릭
+
+API Key = 6559acbf056453652491cd449f68a81e
